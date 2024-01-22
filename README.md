@@ -1,16 +1,16 @@
-# Common Automation Framework - Python Module Component
+# Launch Common Automation Framework - Python Module Component
 
-This repo holds the component for Python modules within the Common Automation Framework (CAF).
+This repo holds the component for Python modules within the Launch Common Automation Framework (LCAF).
 
 It contains the following:
 
 * tasks - Makefiles for performing Python operations on your module and running tests and pre-checks
-* policy - OPA policy definitions for Python modules.  The contents here apply to **all** CAF Python modules.
-* linkfiles - other files used by Python and CAF projects
+* policy - OPA policy definitions for Python modules.  The contents here apply to **all** LCAF Python modules.
+* linkfiles - other files used by Python and LCAF projects
 
 ## Policy Customization
 
-To add policies in addition to the policies defined by the CAF Python module and by Regula, define
+To add policies in addition to the policies defined by the LCAF Python module and by Regula, define
 
 ```CUSTOM_POLICY_REPO=https://some.git.url/```
 
